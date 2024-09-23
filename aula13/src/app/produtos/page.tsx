@@ -7,7 +7,7 @@ export default function Produtos() {
         <div>
             <h2>Produtos</h2>
 
-            <table className="custom-table">
+            {/* <table className="custom-table">
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -26,7 +26,7 @@ export default function Produtos() {
                         </td>
                     </tr>
                 </tfoot>
-            </table>
+            </table> */}
 
         </div>
     )

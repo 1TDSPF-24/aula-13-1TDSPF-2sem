@@ -1,6 +1,4 @@
-type TipoParametro = {
-  id: number;
-}
+import { TipoParametro } from '@/type';
 
 export default function Produto({ params }: { params: TipoParametro }) {
 
