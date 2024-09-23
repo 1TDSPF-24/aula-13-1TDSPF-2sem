@@ -3,16 +3,11 @@ import Link from "next/link";
 
 export default function Produtos() {
 
-    const listaProdutos = [
-        {id: 1, nome: 'Coca-Cola', preco: 5.00},
-        {id: 2, nome: 'Fanta', preco: 4.00},
-        {id: 3, nome: 'Guarana', preco: 4.50},
-        {id: 4, nome: 'Refrigerante', preco: 5.34}
-    ];
 
-  return (
-    <div>
-        <h2>Produtos</h2>
+
+    return (
+        <div>
+            <h2>Produtos</h2>
 
             <table className="custom-table">
                 <thead>
@@ -24,7 +19,7 @@ export default function Produtos() {
                     </tr>
                 </thead>
                 <tbody>
-                    {listaProdutos.map((p)=>(
+                    {listaProdutos.map((p) => (
                         <tr key={p.id}>
                             <td>{p.id}</td>
                             <td>{p.nome}</td>
@@ -42,6 +37,6 @@ export default function Produtos() {
                 </tfoot>
             </table>
 
-    </div>
-  )
+        </div>
+    )
 }
