@@ -1,14 +1,14 @@
-"use client";
-import { useParams } from "next/navigation"
+type TipoParametro = {
+  id: number;
+}
 
-export default function Produto() {
+export default function Produto({ params }: { params: TipoParametro }) {
 
-    const {id} = useParams();
 
   return (
     <div>
-        <h2>Produto</h2>
-        <p>Produto {id}</p>
+      <h2>Produto</h2>
+      <p>Produto {params.id}</p>
     </div>
   )
 }
