@@ -1,8 +1,6 @@
 "use client";
 
-type TipoParametro = {
-  id: number;
-}
+import { TipoParametro } from "@/app/types";
 
 export default function Produto({ params }: { params: TipoParametro }) {
 
