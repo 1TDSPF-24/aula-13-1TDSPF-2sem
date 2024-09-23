@@ -1,0 +1,3 @@
+type TipoParametro = {
+    id: number;
+}

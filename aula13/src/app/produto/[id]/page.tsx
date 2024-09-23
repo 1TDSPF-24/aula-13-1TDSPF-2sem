@@ -3,7 +3,7 @@ type TipoParametro = {
 }
 import { useParams } from "next/navigation";
 
-export default function Produto({ params }: { params: TipoParametro }) {
+export default function Produto() {
 
 
 
