@@ -1,14 +1,6 @@
-
 import Link from "next/link";
 
 export default function Produtos() {
-
-    const listaProdutos = [
-        {id: 1, nome: 'Coca-Cola', preco: 5.00},
-        {id: 2, nome: 'Fanta', preco: 4.00},
-        {id: 3, nome: 'Guarana', preco: 4.50},
-        {id: 4, nome: 'Refrigerante', preco: 5.34}
-    ];
 
   return (
     <div>
@@ -36,7 +28,7 @@ export default function Produtos() {
                 <tfoot>
                     <tr>
                         <td colSpan={4}>
-                            <h2>Quantidade de registros:{listaProdutos.length}</h2>
+                            <h2>Quantidade de registros: {listaProdutos.length}</h2>
                         </td>
                     </tr>
                 </tfoot>
